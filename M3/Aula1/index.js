@@ -33,8 +33,8 @@ const paletas = [
   },
 ];
 
-app.get('/', (req, res) => {
-  res.send('seja bem vindo modulo 3');
+app.get('/', function (req, res) {
+  res.send('Hello World')
 });
 
 app.get('/paletas/todas-paletas', (req, res) => {
